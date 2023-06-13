@@ -34,6 +34,7 @@ public class Exer08 {
     public static void lerNotas(double[][] notas, Scanner scanner) {
         for (int i = 0; i < 3 ; i++) {
             for (int j = 0; j < 3; j++) {
+                System.out.printf("Aluno: %d nota: %d ", (i+1),(j+1));
                 notas[i][j] = scanner.nextDouble();
             }
         }
